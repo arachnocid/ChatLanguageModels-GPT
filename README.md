@@ -24,8 +24,11 @@ ChatLanguageModels is a PyQt6-based desktop application that utilizes the g4f li
 **Running from Source Code:**
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/ChatLanguageModels.git
+   git clone https://github.com/arachnocid/ChatLanguageModels-GPT4-for-free.git
 2. Install the required dependencies (see requirements.txt)
+   ```bash
+   pip install -r requirements.txt
+3. Navigate to the project directory and find "ChatLanguageModels.py"
 4. Run the script.
 5. Select the prefered folder to store database files.
 6. Create new or select the existing database.

@@ -14,7 +14,7 @@ ChatLanguageModels is a PyQt6-based desktop application that utilizes the g4f li
 - g4f
 
 ## Getting Started
-**Using the Executable (Windows):**
+**Using the Executable (Windows and MacOS):**
 1. Download the latest release from the "Releases" section.
 2. Double-click the executable file (ChatLanguageModels.exe) to run the program.
 3. Select the prefered folder to store database files.

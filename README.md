@@ -1,6 +1,8 @@
 # ChatLanguageModels-GPT4-for-free
 ChatLanguageModels is a PyQt6-based desktop application that utilizes the g4f library to interact with various language models (e.g., GPT-4 and GPT-3.5 Turbo). Additionally, it supports the creation and management of SQLite databases to store chat history.
 
+<img src="https://github.com/arachnocid/ChatLanguageModels-GPT4-for-free/blob/d7cd31a0bfd978c100396bcd9d0a0d26f345a1ea/ChatLanguageModels.png" height="200">
+
 ## Features
 - **Language Models:** Choose from a variety of language models.
 - **Database Management:** Select, create, and clear databases to store the chat message history.

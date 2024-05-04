@@ -13,11 +13,12 @@ from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton,
                              QLineEdit, QDialog, QToolButton)
 
 models = {
-        'default': g4f.models.default,
         'gpt-3.5 turbo': gpt_35_turbo,
-        'gpt-3.5 long': gpt_35_long,
-        'gpt-3.5 turbo-16k-0613': gpt_35_turbo_16k_0613,
-        'gpt-4': gpt_4
+        'gpt-3.5 turbo_0613': gpt_35_turbo_0613,
+        'gpt-4': gpt_4,
+        'gemini': gemini,
+        'blackbox': blackbox,
+        'mixtral 8x7b': mixtral_8x7b,
         }
 
 
@@ -244,13 +245,13 @@ class ChatApp(QWidget):
         self.select_folder_button.clicked.connect(self.select_folder_clicked)
         layout.addWidget(self.select_folder_button)
 
-        self.select_database_button = QPushButton("Select Database", self)
-        self.select_database_button.clicked.connect(self.select_database_clicked)
-        layout.addWidget(self.select_database_button)
-
         self.create_database_button = QPushButton("Create Database", self)
         self.create_database_button.clicked.connect(self.create_database_clicked)
         layout.addWidget(self.create_database_button)
+
+        self.select_database_button = QPushButton("Select Database", self)
+        self.select_database_button.clicked.connect(self.select_database_clicked)
+        layout.addWidget(self.select_database_button)
 
         self.clear_database_button = QPushButton("Clear Message History", self)
         self.clear_database_button.clicked.connect(self.clear_database_clicked)
